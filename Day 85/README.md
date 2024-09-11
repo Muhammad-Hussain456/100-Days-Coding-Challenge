@@ -104,6 +104,8 @@ https://nextjs.org/learn/react-foundations/server-and-client-components
    - Next.js will create a `layout.js` file in the `app` folder for shared UI elements.
 
 ## **Using `create-next-app`**
+ A Command Line Interface (CLI) tool that sets up a Next.js application for you.
+ Most of these files are created and pre-configured when you start a new project using create-next-app.
 
 **Concepts Covered:**
 
