@@ -40,19 +40,3 @@ Imagine a dashboard that fetches three pieces of data:
 - Activity logs (fetches in 2 seconds)
 
 In this case, even if the first and third fetches are fast, the overall page will only be fully rendered after the slowest fetch (the revenue data) completes. Therefore, the user perceives the application as slow, even though two out of three fetches were quick.
-
-### Solutions
-
-To mitigate this issue, developers can use various strategies:
-
-1. **Optimizing Data Fetching**: Reduce the amount of data fetched or optimize the queries to speed up response times.
-
-2. **Parallel Fetching**: Implement techniques to fetch data concurrently rather than sequentially, allowing faster components to render while waiting for slower ones.
-
-3. **Loading Indicators**: Provide visual feedback (like spinners or skeleton loaders) to inform users that data is being loaded, which can improve perceived performance.
-
-4. **Caching**: Use caching strategies to store frequently accessed data, reducing the need to fetch it repeatedly.
-
-5. **Incremental Static Regeneration**: Combine static rendering with dynamic updates, allowing parts of the page to be served quickly while still fetching up-to-date information.
-
-By understanding this dynamic rendering limitation, developers can design more resilient applications that provide a better user experience even when some data sources are slow.
