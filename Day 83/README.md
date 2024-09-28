@@ -27,8 +27,9 @@ https://nextjs.org/learn/react-foundations
   ```
 
 ### 2. Props
-
-**Props** (short for properties) are used to pass data from one component to another, typically from a parent component to a child component. Props are read-only, meaning they cannot be modified by the child component.
+https://react.dev/learn/passing-props-to-a-component
+**Props** 
+(short for properties) are used to pass data from one component to another, typically from a parent component to a child component. Props are read-only, meaning they cannot be modified by the child component.
 
 - **Passing Props**: In the parent component, you pass data to the child component via `attributes`.
 
