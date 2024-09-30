@@ -49,6 +49,8 @@ https://react.dev/learn/passing-props-to-a-component
   ```
 
 ### 3. State
+https://react.dev/learn/adding-interactivity
+
 In React, state determine the current condition or status of a component. It encapsulates data that can change over time, affecting how the component renders and behaves.
 **State** is a `built-in object` that allows `components` to create and manage their own data. Unlike props, state is mutable and can be changed within the component. 
 State is primarily used in class components, but with the introduction of `hooks`, it can also be used in function components.
