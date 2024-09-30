@@ -2,7 +2,7 @@ Learn Nextjs:
 https://nextjs.org/learn/react-foundations/installation
 https://nextjs.org/learn/react-foundations/server-and-client-components
 
-### Installing Next.js
+# Installing Next.js
 
 ## **Manual Installation**
 
